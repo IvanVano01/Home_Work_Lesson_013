@@ -20,7 +20,7 @@ public class GameController : MonoBehaviour
     [Header("Configs")]
     [SerializeField] private float _timeToWin;
 
-    [SerializeField] private float _primerGitForDel1;    
+    [SerializeField] private float _primerGitForDel;    
 
     private int _collectedCoins;
     private int _numberCoinsInGame;
