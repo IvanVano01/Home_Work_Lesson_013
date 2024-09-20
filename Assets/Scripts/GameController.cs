@@ -18,9 +18,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private GameOverPanel _gameOverPanel;
 
     [Header("Configs")]
-    [SerializeField] private float _timeToWin;
-
-    [SerializeField] private float _primerGitForDel;    
+    [SerializeField] private float _timeToWin;      
 
     private int _collectedCoins;
     private int _numberCoinsInGame;
